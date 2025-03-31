@@ -20,14 +20,14 @@
         "./package.json": "./package.json"
     },
     "scripts": {
-        "dev": "nucleus dev",
-        "build": "nucleus build",
-        "format": "nucleus format",
-        "lint": "nucleus lint",
-        "test": "nucleus test"
+        "dev": "bsh dev",
+        "build": "bsh build",
+        "format": "bsh format",
+        "lint": "bsh lint",
+        "test": "bsh test"
     },
     "devDependencies": {
-        "@bomb.sh/nucleus": "latest"
+        "@bomb.sh/tools": "latest"
     },
     "publishConfig": {
         "access": "public"
